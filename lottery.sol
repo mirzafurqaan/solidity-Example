@@ -1,4 +1,3 @@
-  Lottery.sol
 pragma solidity ^0.5.0;
 contract lottery{
     address public manager;

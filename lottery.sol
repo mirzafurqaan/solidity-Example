@@ -1,4 +1,5 @@
 pragma solidity ^0.5.0;
+
 contract lottery{
     address public manager;
     address payable[] public players;
@@ -24,6 +25,7 @@ contract lottery{
         require (msg.sender == manager);
         _;
     }
+// this will give the list of players participating in the lottery
     function getPlayers() public view returns(address payable[] memory ){
         return players;
     }

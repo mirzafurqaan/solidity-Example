@@ -38,8 +38,8 @@ contract Campaign{
     uint public approversCount;
     
     modifier restricted(){
-        require(msg.sender == manager); // it 
-        _; //
+        require(msg.sender == manager); 
+        _; 
     }
     
     // create a function Campaign having a manager and a minimum contribution

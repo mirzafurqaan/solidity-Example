@@ -15,7 +15,7 @@ contract forLoopContinue{
         for (uint i=0; i< counter; i++){
             if (i > 5)
             {continue;}
-            uintNumber(blockNumber[i]);
+            emit uintNumber(blockNumber[i]);
         }
     }
 }

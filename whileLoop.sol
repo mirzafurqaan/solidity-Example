@@ -13,7 +13,7 @@ contract whileLoop {
     function getNumbers() public{
         uint i = 0;
         while (i < counter){
-            uintNumber(blockNumber[i]);
+           emit uintNumber(blockNumber[i]);
             i = i+ 1;
         }
     }

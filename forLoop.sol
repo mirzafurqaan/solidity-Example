@@ -11,7 +11,7 @@ contract forLoop{
     
     function getNumbers() public {
         for (uint i=0; i< counter; i++){
-            uintNumber(blockNumber[i]);
+            emit uintNumber(blockNumber[i]);
         }
     }
 }
